@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TechZone — Laptop, Linh Kiện & Phụ Kiện Máy Tính Chính Hãng</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span>⚡ Trả góp 0% — Bảo hành chính hãng 12–36 tháng — Giao nhanh 2H nội thành</span>
+      <span>Hotline kỹ thuật: <strong>1900 8899</strong></span>
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="container header-inner">
+      <a href="#" class="logo">
+        <span class="logo-icon">💻</span>
+        <div>
+          <span class="logo-title">TechZone</span>
+          <span class="logo-sub">Laptop & PC Gear</span>
+        </div>
+      </a>
+
+      <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Tìm MacBook, RTX 4070, bàn phím cơ, RAM..." aria-label="Tìm kiếm sản phẩm" />
+        <button id="searchBtn" aria-label="Tìm kiếm">🔍</button>
+      </div>
+
+      <nav class="nav-links">
+        <a href="#san-pham">Sản phẩm</a>
+        <a href="#dich-vu">Dịch vụ</a>
+        <a href="#lien-he">Liên hệ</a>
+      </nav>
+
+      <button class="cart-btn" id="openCartBtn" aria-label="Mở giỏ hàng">
+        🛒 <span>Giỏ hàng</span>
+        <span class="cart-badge" id="cartCount">0</span>
+      </button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <span class="pill">🔥 Siêu Sale Công Nghệ 2026</span>
+        <h1>Laptop, Linh Kiện &<br /><span>Phụ Kiện Chính Hãng</span></h1>
+        <p>Từ Laptop Gaming, Ultrabook văn phòng đến Card đồ họa, CPU, RAM, SSD và Gear cao cấp. Build PC theo yêu cầu, hỗ trợ cài đặt trọn đời.</p>
+        <div class="hero-actions">
+          <a href="#san-pham" class="btn btn-primary">Khám phá sản phẩm</a>
+          <a href="#dich-vu" class="btn btn-outline">Tư vấn Build PC</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="hero-icons">
+          <span>💻</span><span>🖥️</span><span>⌨️</span><span>🖱️</span>
+        </div>
+        <h3>Miễn phí vệ sinh & tra keo tản nhiệt</h3>
+        <p>Dành cho mọi khách hàng mua Laptop hoặc Build PC tại TechZone.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="services" id="dich-vu">
+    <div class="container services-grid">
+      <div class="service-card">
+        <div class="service-icon">🛡️</div>
+        <h3>100% Chính Hãng</h3>
+        <p>Đầy đủ hóa đơn VAT, tem bảo hành từ Asus, Dell, Apple, NVIDIA, Intel, AMD.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🚀</div>
+        <h3>Giao Nhanh 2 Giờ</h3>
+        <p>Miễn phí giao hàng nội thành cho đơn từ 1.000.000đ, kiểm tra hàng trước khi thanh toán.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🔧</div>
+        <h3>Build PC Chuẩn Kỹ Thuật</h3>
+        <p>Đi dây gọn gàng, test stress nhiệt độ & hiệu năng trước khi bàn giao.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">💳</div>
+        <h3>Trả Góp 0% Lãi Suất</h3>
+        <p>Hỗ trợ qua thẻ tín dụng hoặc CCCD duyệt hồ sơ nhanh trong 15 phút.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="products-section" id="san-pham">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <h2>Danh Mục Sản Phẩm</h2>
+          <p>Chọn lọc cấu hình tối ưu nhất theo nhu cầu học tập, làm việc & gaming</p>
+        </div>
+        <div class="filter-tabs" id="categoryTabs">
+          <button class="tab active" data-category="all">Tất cả</button>
+          <button class="tab" data-category="laptop">Laptop</button>
+          <button class="tab" data-category="component">Linh kiện PC</button>
+          <button class="tab" data-category="accessory">Phụ kiện & Gear</button>
+        </div>
+      </div>
+
+      <div class="products-grid" id="productsGrid"></div>
+    </div>
+  </section>
+
+  <footer class="footer" id="lien-he">
+    <div class="container footer-grid">
+      <div>
+        <div class="logo footer-logo">
+          <span class="logo-icon">💻</span>
+          <div>
+            <span class="logo-title">TechZone</span>
+            <span class="logo-sub">Laptop & PC Gear</span>
+          </div>
+        </div>
+        <p class="footer-desc">Hệ thống bán lẻ Laptop, Linh kiện PC và Phụ kiện công nghệ uy tín.</p>
+      </div>
+      <div>
+        <h4>Showroom</h4>
+        <ul>
+          <li>📍 456 Cách Mạng Tháng 8, Q.10, TP.HCM</li>
+          <li>📞 1900 8899 (8:30 - 21:30)</li>
+          <li>✉️ support@techzone.vn</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Hỗ trợ</h4>
+        <ul>
+          <li>Chính sách bảo hành 1 đổi 1</li>
+          <li>Hướng dẫn trả góp 0%</li>
+          <li>Tra cứu bảo hành điện tử</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 TechZone. Tất cả quyền được bảo lưu.</div>
+  </footer>
+
+  <div class="cart-overlay" id="cartOverlay"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Giỏ hàng">
+    <div class="cart-header">
+      <h3>🛒 Giỏ hàng</h3>
+      <button class="close-btn" id="closeCartBtn">✕</button>
+    </div>
+    <div class="cart-items" id="cartItems"></div>
+    <div class="cart-footer">
+      <div class="cart-total-row">
+        <span>Tổng cộng:</span>
+        <strong id="cartTotal">0đ</strong>
+      </div>
+      <button class="btn btn-primary full-width" id="checkoutBtn">Đặt hàng ngay</button>
+    </div>
+  </aside>
+
+  <div class="modal-overlay" id="checkoutModal">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3>Thông tin đặt hàng</h3>
+        <button class="close-btn" id="closeModalBtn">✕</button>
+      </div>
+      <form id="checkoutForm">
+        <div class="form-group">
+          <label for="custName">Họ và tên *</label>
+          <input type="text" id="custName" required placeholder="Nguyễn Văn A" />
+        </div>
+        <div class="form-group">
+          <label for="custPhone">Số điện thoại *</label>
+          <input type="tel" id="custPhone" required placeholder="0909 123 456" />
+        </div>
+        <div class="form-group">
+          <label for="custAddress">Địa chỉ giao hàng *</label>
+          <textarea id="custAddress" rows="2" required placeholder="Số nhà, đường, quận/huyện..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary full-width">Xác nhận đơn hàng</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="toast" id="toast"></div>
+  <script src="app.js"></script>
+</body>
+</html>
