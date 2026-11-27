@@ -3,39 +3,41 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>TechZone — Laptop, Linh Kiện & Phụ Kiện Máy Tính Chính Hãng</title>
+  <title>Vườn Xanh — Hoa Quả Sạch & Hữu Cơ Chuẩn VietGAP</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <!-- Top Bar -->
   <div class="topbar">
     <div class="container topbar-inner">
-      <span>⚡ Trả góp 0% — Bảo hành chính hãng 12–36 tháng — Giao nhanh 2H nội thành</span>
-      <span>Hotline kỹ thuật: <strong>1900 8899</strong></span>
+      <span>🌿 Giao hàng hỏa tốc 2H nội thành — Cam kết 100% tươi sạch, không chất bảo quản</span>
+      <span class="topbar-contact">Hotline: <strong>1900 6868</strong></span>
     </div>
   </div>
 
+  <!-- Header -->
   <header class="header">
     <div class="container header-inner">
       <a href="#" class="logo">
-        <span class="logo-icon">💻</span>
+        <span class="logo-icon">🍊</span>
         <div>
-          <span class="logo-title">TechZone</span>
-          <span class="logo-sub">Laptop & PC Gear</span>
+          <span class="logo-title">Vườn Xanh</span>
+          <span class="logo-sub">Hoa Quả Sạch</span>
         </div>
       </a>
 
       <div class="search-box">
-        <input type="text" id="searchInput" placeholder="Tìm MacBook, RTX 4070, bàn phím cơ, RAM..." aria-label="Tìm kiếm sản phẩm" />
+        <input type="text" id="searchInput" placeholder="Tìm xoài, bưởi, nho mẫu đơn, dâu tây..." aria-label="Tìm kiếm trái cây" />
         <button id="searchBtn" aria-label="Tìm kiếm">🔍</button>
       </div>
 
       <nav class="nav-links">
         <a href="#san-pham">Sản phẩm</a>
-        <a href="#dich-vu">Dịch vụ</a>
-        <a href="#lien-he">Liên hệ</a>
+        <a href="#cam-ket">Cam kết</a>
+        <a href="#danh-gia">Đánh giá</a>
       </nav>
 
       <button class="cart-btn" id="openCartBtn" aria-label="Mở giỏ hàng">
@@ -45,110 +47,155 @@
     </div>
   </header>
 
+  <!-- Hero -->
   <section class="hero">
     <div class="container hero-grid">
       <div class="hero-content">
-        <span class="pill">🔥 Siêu Sale Công Nghệ 2026</span>
-        <h1>Laptop, Linh Kiện &<br /><span>Phụ Kiện Chính Hãng</span></h1>
-        <p>Từ Laptop Gaming, Ultrabook văn phòng đến Card đồ họa, CPU, RAM, SSD và Gear cao cấp. Build PC theo yêu cầu, hỗ trợ cài đặt trọn đời.</p>
+        <span class="pill">✅ Chứng nhận VietGAP & GlobalGAP</span>
+        <h1>Trái Cây Tươi Sạch<br /><span>Từ Vườn Đến Bàn Ăn</span></h1>
+        <p>Tuyển chọn mỗi sáng từ các nhà vườn đạt chuẩn tại Đồng Bằng Sông Cửu Long, Đà Lạt và trái cây nhập khẩu chính ngạch. Đổi trả miễn phí 100% nếu không hài lòng.</p>
         <div class="hero-actions">
-          <a href="#san-pham" class="btn btn-primary">Khám phá sản phẩm</a>
-          <a href="#dich-vu" class="btn btn-outline">Tư vấn Build PC</a>
+          <a href="#san-pham" class="btn btn-primary">Mua sắm ngay</a>
+          <a href="#cam-ket" class="btn btn-outline">Xem quy trình sạch</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>15.000+</strong><span>Khách hàng tin dùng</span></div>
+          <div><strong>100%</strong><span>Không thuốc trừ sâu</span></div>
+          <div><strong>2 Giờ</strong><span>Giao hàng nội thành</span></div>
         </div>
       </div>
-      <div class="hero-card">
-        <div class="hero-icons">
-          <span>💻</span><span>🖥️</span><span>⌨️</span><span>🖱️</span>
+      <div class="hero-visual">
+        <div class="hero-card-main">
+          <div class="fruit-emoji-grid">
+            <span>🥭</span><span>🍓</span><span>🍇</span><span>🍊</span>
+          </div>
+          <div class="hero-promo">
+            <span class="promo-tag">Ưu đãi hôm nay</span>
+            <h3>Giảm 15% Combo Gia Đình</h3>
+            <p>Miễn phí vận chuyển cho đơn từ 300.000đ</p>
+          </div>
         </div>
-        <h3>Miễn phí vệ sinh & tra keo tản nhiệt</h3>
-        <p>Dành cho mọi khách hàng mua Laptop hoặc Build PC tại TechZone.</p>
       </div>
     </div>
   </section>
 
-  <section class="services" id="dich-vu">
-    <div class="container services-grid">
-      <div class="service-card">
-        <div class="service-icon">🛡️</div>
-        <h3>100% Chính Hãng</h3>
-        <p>Đầy đủ hóa đơn VAT, tem bảo hành từ Asus, Dell, Apple, NVIDIA, Intel, AMD.</p>
+  <!-- Commitments -->
+  <section class="commitments" id="cam-ket">
+    <div class="container commitments-grid">
+      <div class="commit-item">
+        <div class="commit-icon">🌱</div>
+        <h3>100% Hữu Cơ & VietGAP</h3>
+        <p>Canh tác theo quy trình an toàn sinh học, kiểm định dư lượng trước khi xuất vườn.</p>
       </div>
-      <div class="service-card">
-        <div class="service-icon">🚀</div>
-        <h3>Giao Nhanh 2 Giờ</h3>
-        <p>Miễn phí giao hàng nội thành cho đơn từ 1.000.000đ, kiểm tra hàng trước khi thanh toán.</p>
+      <div class="commit-item">
+        <div class="commit-icon">🚚</div>
+        <h3>Giao Nhanh Trong 2H</h3>
+        <p>Bảo quản lạnh xuyên suốt, giữ nguyên độ giòn ngọt và vitamin tự nhiên.</p>
       </div>
-      <div class="service-card">
-        <div class="service-icon">🔧</div>
-        <h3>Build PC Chuẩn Kỹ Thuật</h3>
-        <p>Đi dây gọn gàng, test stress nhiệt độ & hiệu năng trước khi bàn giao.</p>
+      <div class="commit-item">
+        <div class="commit-icon">🔄</div>
+        <h3>Đổi Trả 1-1 Miễn Phí</h3>
+        <p>Hoàn tiền hoặc đổi mới ngay lập tức nếu trái cây bị dập, hỏng hoặc không đúng mô tả.</p>
       </div>
-      <div class="service-card">
-        <div class="service-icon">💳</div>
-        <h3>Trả Góp 0% Lãi Suất</h3>
-        <p>Hỗ trợ qua thẻ tín dụng hoặc CCCD duyệt hồ sơ nhanh trong 15 phút.</p>
+      <div class="commit-item">
+        <div class="commit-icon">🎁</div>
+        <h3>Giỏ Quà Thiết Kế Riêng</h3>
+        <p>Đóng gói sang trọng, tinh tế cho dịp lễ Tết, thăm hỏi và quà tặng doanh nghiệp.</p>
       </div>
     </div>
   </section>
 
+  <!-- Products -->
   <section class="products-section" id="san-pham">
     <div class="container">
       <div class="section-header">
         <div>
-          <h2>Danh Mục Sản Phẩm</h2>
-          <p>Chọn lọc cấu hình tối ưu nhất theo nhu cầu học tập, làm việc & gaming</p>
+          <h2>Sản Phẩm Nổi Bật</h2>
+          <p>Thu hoạch tươi mới mỗi ngày — Giá minh bạch theo kg / hộp</p>
         </div>
         <div class="filter-tabs" id="categoryTabs">
           <button class="tab active" data-category="all">Tất cả</button>
-          <button class="tab" data-category="laptop">Laptop</button>
-          <button class="tab" data-category="component">Linh kiện PC</button>
-          <button class="tab" data-category="accessory">Phụ kiện & Gear</button>
+          <button class="tab" data-category="vietnam">Trái cây Việt</button>
+          <button class="tab" data-category="import">Nhập khẩu</button>
+          <button class="tab" data-category="gift">Giỏ quà & Combo</button>
         </div>
       </div>
 
-      <div class="products-grid" id="productsGrid"></div>
+      <div class="products-grid" id="productsGrid">
+        <!-- Rendered by app.js -->
+      </div>
     </div>
   </section>
 
-  <footer class="footer" id="lien-he">
+  <!-- Reviews -->
+  <section class="reviews-section" id="danh-gia">
+    <div class="container">
+      <h2 class="center-title">Khách Hàng Nói Gì Về Vườn Xanh?</h2>
+      <div class="reviews-grid">
+        <div class="review-card">
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p>"Xoài cát Hòa Lộc ngọt lịm, thơm nức. Giao hàng chưa tới 1 tiếng đã nhận được, đóng gói rất cẩn thận."</p>
+          <div class="reviewer">— Chị Minh Anh (Quận 3, TP.HCM)</div>
+        </div>
+        <div class="review-card">
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p>"Mình hay đặt dâu tây Đà Lạt và bưởi da xanh cho bé ăn dặm. Trái cây tươi, có mã QR truy xuất nguồn gốc rõ ràng."</p>
+          <div class="reviewer">— Anh Hoàng Nam (Cầu Giấy, Hà Nội)</div>
+        </div>
+        <div class="review-card">
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p>"Đặt giỏ quà trái cây tặng đối tác rất ưng ý, trái cây to đều, nhìn sang trọng mà giá lại hợp lý."</p>
+          <div class="reviewer">— Chị Thảo Vy (Bình Thạnh, TP.HCM)</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
     <div class="container footer-grid">
       <div>
         <div class="logo footer-logo">
-          <span class="logo-icon">💻</span>
+          <span class="logo-icon">🍊</span>
           <div>
-            <span class="logo-title">TechZone</span>
-            <span class="logo-sub">Laptop & PC Gear</span>
+            <span class="logo-title">Vườn Xanh</span>
+            <span class="logo-sub">Hoa Quả Sạch</span>
           </div>
         </div>
-        <p class="footer-desc">Hệ thống bán lẻ Laptop, Linh kiện PC và Phụ kiện công nghệ uy tín.</p>
+        <p class="footer-desc">Hệ thống phân phối trái cây sạch, an toàn và minh bạch nguồn gốc hàng đầu Việt Nam.</p>
       </div>
       <div>
-        <h4>Showroom</h4>
+        <h4>Liên hệ</h4>
         <ul>
-          <li>📍 456 Cách Mạng Tháng 8, Q.10, TP.HCM</li>
-          <li>📞 1900 8899 (8:30 - 21:30)</li>
-          <li>✉️ support@techzone.vn</li>
+          <li>📍 123 Nguyễn Văn Cừ, TP.HCM</li>
+          <li>📞 1900 6868 (8:00 - 21:00)</li>
+          <li>✉️ cskh@vuonxanh.vn</li>
         </ul>
       </div>
       <div>
-        <h4>Hỗ trợ</h4>
+        <h4>Chính sách</h4>
         <ul>
-          <li>Chính sách bảo hành 1 đổi 1</li>
-          <li>Hướng dẫn trả góp 0%</li>
-          <li>Tra cứu bảo hành điện tử</li>
+          <li>Chính sách đổi trả 1-1</li>
+          <li>Hướng dẫn bảo quản trái cây</li>
+          <li>Chứng nhận an toàn thực phẩm</li>
         </ul>
       </div>
     </div>
-    <div class="footer-bottom">© 2026 TechZone. Tất cả quyền được bảo lưu.</div>
+    <div class="footer-bottom">
+      © 2026 Vườn Xanh — Hoa Quả Sạch. Tất cả quyền được bảo lưu.
+    </div>
   </footer>
 
+  <!-- Cart Drawer -->
   <div class="cart-overlay" id="cartOverlay"></div>
   <aside class="cart-drawer" id="cartDrawer" aria-label="Giỏ hàng">
     <div class="cart-header">
-      <h3>🛒 Giỏ hàng</h3>
-      <button class="close-btn" id="closeCartBtn">✕</button>
+      <h3>🛒 Giỏ hàng của bạn</h3>
+      <button class="close-btn" id="closeCartBtn" aria-label="Đóng giỏ hàng">✕</button>
     </div>
-    <div class="cart-items" id="cartItems"></div>
+    <div class="cart-items" id="cartItems">
+      <!-- Rendered by app.js -->
+    </div>
     <div class="cart-footer">
       <div class="cart-total-row">
         <span>Tổng cộng:</span>
@@ -158,10 +205,11 @@
     </div>
   </aside>
 
+  <!-- Checkout Modal -->
   <div class="modal-overlay" id="checkoutModal">
     <div class="modal-card">
       <div class="modal-header">
-        <h3>Thông tin đặt hàng</h3>
+        <h3>Thông tin giao hàng</h3>
         <button class="close-btn" id="closeModalBtn">✕</button>
       </div>
       <form id="checkoutForm">
@@ -171,18 +219,24 @@
         </div>
         <div class="form-group">
           <label for="custPhone">Số điện thoại *</label>
-          <input type="tel" id="custPhone" required placeholder="0909 123 456" />
+          <input type="tel" id="custPhone" required placeholder="0901 234 567" />
         </div>
         <div class="form-group">
-          <label for="custAddress">Địa chỉ giao hàng *</label>
-          <textarea id="custAddress" rows="2" required placeholder="Số nhà, đường, quận/huyện..."></textarea>
+          <label for="custAddress">Địa chỉ nhận hàng *</label>
+          <textarea id="custAddress" rows="2" required placeholder="Số nhà, đường, phường/xã, quận/huyện..."></textarea>
         </div>
-        <button type="submit" class="btn btn-primary full-width">Xác nhận đơn hàng</button>
+        <div class="form-group">
+          <label for="custNote">Ghi chú (tùy chọn)</label>
+          <input type="text" id="custNote" placeholder="Giao giờ hành chính, chọn trái chín vừa..." />
+        </div>
+        <button type="submit" class="btn btn-primary full-width">Xác nhận đặt hàng</button>
       </form>
     </div>
   </div>
 
+  <!-- Toast -->
   <div class="toast" id="toast"></div>
+
   <script src="app.js"></script>
 </body>
 </html>
